@@ -8,7 +8,8 @@ Task 2: In `arrays.js`, define two functions, `addElementToBeginningOfArray` and
 Both functions take two parameters, an array and an element to add to the beginning of the array, and both functions should add 
 the element to the beginning of the array and then return the whole array. The destructive function, 
 `destructivelyAddElementToBeginningOfArray`, should alter the original array that's passed in; `addElementToBeginningOfArray`, 
-on the other hand, should return a new array **and not modify the original**=====
+on the other hand, should return a new array **and not modify the original**
+
 Task 2: In `arrays.js`, define two functions, `addElementToBeginningOfArray` and `destructivelyAddElementToBeginningOfArray`. Both functions take two parameters, an array and an element to add to the beginning of the array, and both functions should add the element to the beginning of the array and then return the whole array. The destructive function, `destructivelyAddElementToBeginningOfArray`, should alter the original array that's passed in; `addElementToBeginningOfArray`, on the other hand, should return a new array **and not modify the original**.
 
 */
@@ -28,9 +29,6 @@ function addElementToBeginningOfArray(groceries, banana) {
 Task 3: Define two more functions, `addElementToEndOfArray` and `destructivelyAddElementToEndOfArray`. These functions also take two 
 arguments, an array and an element to add to the end of the array. `addElementToEndOfArray` **should not** alter the original array; 
 `destructivelyAddElementToEndOfArray` **should** alter the original array.
-=======
-Task 3: Define two more functions, `addElementToEndOfArray` and `destructivelyAddElementToEndOfArray`. These functions also take two arguments, an array and an element to add to the end of the array. `addElementToEndOfArray` **should not** alter the original array; `destructivelyAddElementToEndOfArray` **should** alter the original array.
->>>>>>> dca505ae8c998295304fa1abdc379883015ba9cf
 */
 
 function addElementToEndOfArray(cup, straw) {
@@ -57,8 +55,6 @@ function accessElementInArray(arr, element) {
 
 /* Task 5: Define a function in `arrays.js` called `destructivelyRemoveElementFromBeginningOfArray` that takes an array as its only 
 argument and removes the first element. Your function should then return the entire array, and it **should** mutate the array.
-
-// Task 5: Define a function in `arrays.js` called `destructivelyRemoveElementFromBeginningOfArray` that takes an array as its only argument and removes the first element. Your function should then return the entire array, and it **should** mutate the array.
 
 function destructivelyRemoveElementFromBeginningOfArray(array) {
   array.shift();
